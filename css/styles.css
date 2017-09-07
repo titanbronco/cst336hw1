@@ -35,6 +35,10 @@ header, main, nav, footer{
     font-size: 1.3em;
 }
 
+#scalePic{
+    float:left;
+}
+
 #todayText
 {
     font-size:1.3em;
@@ -42,6 +46,10 @@ header, main, nav, footer{
 
 #futureText{
     font-size:1.3em;
+}
+
+li{
+    text-align:left;
 }
 
 #traits{
@@ -63,4 +71,39 @@ header, main, nav, footer{
 
 .tableRow{
     padding-bottom: 5px;
+}
+
+#proconText{
+    text-align: center;
+    text-decoration: none;
+    font-size:1.3em;
+}
+
+#tableHeader1{
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+.tableRow1{
+    padding-bottom: 5px;
+    background-color:white;
+    
+}
+
+.pro{
+    color:blue;
+}
+
+.con{
+    color: red;
+}
+
+footer{
+    opacity: 0.5;
+}
+
+.proconTable{
+    margin-right: auto;
+    margin-left: auto;
+    font-size:1.3em;
 }
