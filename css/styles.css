@@ -1,0 +1,66 @@
+body{
+    background-color: #add8e6
+}
+
+nav a{
+    padding:15px;
+    padding-bottom: 4px;
+    font-size:1.8em;
+    text-decoration:none;
+    color:white;
+}
+
+nav a:hover{
+    border-bottom:2px red solid;
+    font-size:2em;
+    transition:.9s;
+}
+
+header, main, nav, footer{
+    text-align:center;
+}
+
+#robotPic{
+    float: left;
+}
+
+#siriPic
+{
+    border:5px solid red;
+    float: right;
+}
+
+#homeText
+{
+    font-size: 1.3em;
+}
+
+#todayText
+{
+    font-size:1.3em;
+}
+
+#futureText{
+    font-size:1.3em;
+}
+
+#traits{
+    text-align:left;
+    padding-left:200px;
+}
+
+.todayTable{
+    margin-right: auto;
+    margin-left: auto;
+    font-size:1.5em;
+}
+
+#tableHeader{
+    padding-right: 15px;
+    background-color: black;
+    color: white;
+}
+
+.tableRow{
+    padding-bottom: 5px;
+}
